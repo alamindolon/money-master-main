@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Master</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="">
+        <div>
+            <h1 class="text-center m-6 font-bold">Money Master</h1>
+        </div>
+        <div class="flex gap-5 text-center bg-fuchsia-200 ">
+            <div class="flex-1 sm:w-6/12">
+                <img src="money-master.png" alt="">
+            </div>
+            <div class="flex-1 container mx-auto">
+                <h4 class="text-center m-6 font-bold" id="">Income</h4>
+               Income: <input id="income_id" type="text">
+               <h4 class="text-center m-6 font-bold">Expenses</h4>
+               <div class="container">
+                Food: <input id="food_id" type="text" class="mb-3"> <br>
+               Rent: <input id="rent_id" type="text" class="mb-3"><br>
+               Clothes: <input id="cloth_id" type="text" class="mb-3"> <br>
+               </div>
+               <div class="flex justify-center">
+                <button class="m-6 bg-sky-400 p-2 rounded-lg" id="calculator_ID">Calculator</button>
+               </div>
+               <h3>Total Expenses: <span id="total_expenses">5500</span></h3>
+               <h3>Balance: <span id="balance-id">4500</span></h3>
+              
+                
+                <div class="flex justify-center gap-7 mt-6">
+                    Save: <input class="" type="text" id="save_input_filed">
+                <h5 class="">%</h5> 
+               
+                    <button class="bg-sky-400 px-4 py-2 rounded-lg" id="save_ID">Save</button>
+                </div>
+                   
+             
+
+               <div class="text-center mt-6">
+                <h4>Saving Amount : <span id="saving_id">2000</span></h4>
+               <h4>Remaining balance: <span id="remaing_balance">2500</span></h4>
+               </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>
